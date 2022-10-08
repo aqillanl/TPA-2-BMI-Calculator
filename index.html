@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI CALCULATOR</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BMI CALCULATOR</h1>
+    </header>
+    <section class="menu">
+      <div class="menu-text">
+        <p>
+          Apa itu BMI? Body Mass Index (BMI) atau Indeks Massa Tubuh (IMT) <br />
+          itu adalah angka yang menjadi penilaian standar untuk menentukan apakah berat badan Anda <br />
+          tergolong normal, kurang, berlebih, atau obesitas.
+        </p>
+      </div>
+      <div class="menu-img">
+        <img src="img/home.png" alt="" width="300px" height="295px" />
+      </div>
+    </section>
+    <section class="form" id="form">
+      <div class="card">
+        <h3>AYO CEK BMI KAMU!</h3>
+        <p>Masukkan berat dan tinggi badan Kamu di bawah ini untuk memeriksa Hasil BMI Kamu</p>
+        <div class="weight">
+          <label for="weight">Berat Badan (KG)</label>
+          <br /><input type="text" id="weight" placeholder="Masukan berat badan kamu" />
+        </div>
+        <div class="height">
+          <label for="height">Tinggi Badan (CM)</label>
+          <br /><input type="text" id="height" placeholder="Masukan tinggi badan kamu" />
+        </div>
+        <div class="btn">
+          <button type="submit" id="btn-submit">Hitung BMI</button>
+        </div>
+        <p id="result"></p>
+      </div>
+    </section>
+    <footer>
+      <p>CREATED WITH LOVE By <a href="https://www.instagram.com/aqillanl/">Aqilla Noor Lazuardi</a></p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

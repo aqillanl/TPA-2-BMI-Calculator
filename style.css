@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* reset style */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+
+/* main */
+main {
+  margin: 0 5%;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.menu {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.menu-text {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  padding: 50px 50px;
+  font-size: 20px;
+}
+
+.menu-img {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* form */
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*  */
+.card {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: darkgray;
+  box-shadow: -9px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card h3 {
+  padding: 30px;
+  font-size: 30px;
+}
+.card > div,
+.card p {
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 20px;
+}
+.weight input,
+.height input {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px 20px;
+  font-size: 18px;
+  margin: 7px;
+}
+
+.card > div.btn button {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: slateblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 slateblue;
+}
+/*  */
+
+/* hasil */
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+}
